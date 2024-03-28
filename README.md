@@ -1,1 +1,1 @@
-# react-js-sample
+docker run -d --name=firefox -p 5800:5800 -v //workspace/config:/config:rw -v /workspace:/workspace:rw --shm-size 2g -e "DISPLAY_WIDTH=1920" -e "DISPLAY_HEIGHT=1080" jlesage/firefox
